@@ -1,7 +1,7 @@
 
 let start = false
-let speed = 5
-let size = 1
+let speed = 15
+let size = 2
 
 let wn = {
   x: 1120,

@@ -53,6 +53,7 @@ class World{
   neighbour(i,j,range){
     let n = 0, fi=i+range, fj=j+range
     if (world.cells[i][j]==1){n-=1}
+
     for (i-=range; i<=fi; i++){
       j=fj-range
       for (j-=range; j<=fj; j++){

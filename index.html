@@ -6,11 +6,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
 
-    <script src="src/Cell-class.js"></script>
-    <script src="src/drawCell.js"></script>
     <script src="src/makeGrid.js"></script>
     <script src="src/world.js"></script>
+    <script src="src/reset.js"></script>
     <script src="main.js"></script>
+
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -22,8 +22,8 @@
       <main>
 
         <div class="btn-group">
-          <button class="btn" type="button" onclick="start=true">start</button>
-          <!-- <button type="button" onclick="reset=1">reset</button> -->
+          <button class="btn" type="button" onclick="start=!start">start</button>
+          <button class="btn" type="button" onclick="reset()">reset</button>
         </div>
         <div id="options">
 
